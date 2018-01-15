@@ -1,0 +1,187 @@
+body{
+	background: #EAEDED;
+}
+td,th{
+	font-size: 14px;
+	text-align: center
+}
+/* login */
+
+.login{
+	background: white;
+	margin-top: 10%;
+	padding: 20px 60px;
+}
+.btnbikinan{
+	background: black;
+	border: none;
+}
+.btnbikinan:hover{
+	background: gray;
+}
+
+
+/*header wrapper*/
+.header-wrapper{
+	z-index: 1;
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	color: white;
+	padding: 20px;
+	background: #2E86C1;
+
+}
+
+/* page wrapper  */
+.page-wrapper{
+	width: 100%;
+	position: absolute;
+	transition: 0.1s;
+	padding-left: 13%;
+	padding-top: 80px;
+}
+/* info row */
+.info-row{
+	padding: 5px;
+}
+/* tool row */
+.tool-row{
+	background: white;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.tool-row .row{
+	margin: 10px;
+}
+/* table row */
+.table-row{
+	background: white
+}
+.table-row .row{
+	padding: 20px 0px 20px 20px;
+}
+
+/* form row */
+.form-row{
+	background: white
+}
+.form-row .row, h4{
+	padding: 10px 0px 10px 50px;
+}
+/* cart row */
+.cart-row{
+	background: white;
+	padding: 7px;
+	border-bottom: 5px #EAEDED dashed;
+	min-height: 300px;
+	margin-bottom: 20px;
+}
+.cart-row td,th{
+	text-align: center;
+}
+/* tr pel row */
+.transaksi-pelanggan-row{
+	padding: 10px;
+	background: white;
+	margin-left: -20px;
+	margin-bottom: 20px;
+	border-bottom: 5px #EAEDED dashed;
+}
+
+.row-button{
+	padding-left:10px;
+}
+
+
+
+/* sidebar wrapper */
+.sidebar-wrapper{
+	z-index: 2;
+	width: 13%;
+	position: fixed;
+	height: 100%;
+	overflow-y: hidden;
+	background: #212F3C;
+	transition: 0.1s;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+.wrapper.toggled .sidebar-wrapper{
+	width: 15%;	
+}
+.wrapper.toggled .header-wrapper{
+	padding-left: 15%;
+}
+.wrapper.toggled .page-wrapper{
+	padding-left: 15%;
+}
+
+.sidebar-wrapper ul{
+	padding: 0px;
+	list-style: none;
+
+}
+.sidebar-wrapper li a{
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+	color: white;
+}
+.sidebar-wrapper .brand h3 {
+	height: 60px;
+	text-decoration: none;
+	padding: 20px 20px 0px 0px;
+	display: block;
+	color: white;
+	background: #2E86C1
+}
+.sidebar-wrapper li a:hover{
+	background: white;
+	transition: 0.1s;
+	border-left: 7px solid #922B21;
+	color: #922B21;
+}
+.sidebar-wrapper li a.active{
+	background: white;
+	color: #922B21;
+}
+
+.sidebar-collapse li a{
+	padding-left:30px;
+	background: #5D6D7E; 
+}
+
+
+/* error */
+
+.error{
+	color: red;
+}
+
+
+/* transaksi */
+.keranjang{
+	height: 400px;
+	overflow: auto;
+
+}
+.divtotal{
+
+	position: fixed;
+	width: 80%;
+	bottom: 1px;
+}
+
+
+/* laporan */
+
+.modal-view input{
+	border: white 1px solid;
+	background: aliceblue !important;
+}
+.card-block{
+	color: white;
+}
